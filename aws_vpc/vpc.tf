@@ -1,7 +1,8 @@
 resource "aws_vpc" "main1" {
-  cidr_block       = "cidr_id"
+  cidr_block       = "vpc_cidr"
 
   tags = {
     Name = "vpc_name"
   }
+
 }
